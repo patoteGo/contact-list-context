@@ -23,9 +23,9 @@ const getState = ({ getStore, setStore }) => {
 			saveContact: () => {},
 			deleteContact: () => {},
 			updateContact: () => {},
-			loadList: contacts => {
+			loadList: () => {
 				// setStore({});
-				console.log("getstore", getStore());
+				return getStore();
 
 				// const data = getStore.contacts;
 				// setStore({ contacts: contacts });
